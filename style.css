@@ -1,0 +1,15 @@
+.map__image {
+  width: 50%;
+  float: left;
+}
+
+.map__image path {
+  fill: rgb(5, 106, 72);
+  stroke: #fff;
+  stroke-width: 1px;
+  transition: fill 1s;
+}
+
+.map__image path:hover {
+  fill: aquamarine;
+}
